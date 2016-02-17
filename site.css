@@ -1,6 +1,18 @@
-.container {
-    border: 5px;
+div.container {
+    margin: auto;
+    padding: 5px;
     border-style: solid;
-    border-color: green;
+    border-color: lightgray;
+    border-width: medium;
     width: 180px;
+    text-align: center;
+}
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: darkgray;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
 }
