@@ -1,4 +1,17 @@
-div.container {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.header {
+    text-align: center;
+    font-size: 40px;
+}
+
+div.box {
+    position: absolute;
+    top: 10%;
+    left: 45%;
     margin: auto;
     padding: 5px;
     border-style: solid;
@@ -7,12 +20,17 @@ div.container {
     width: 180px;
     text-align: center;
 }
-input:focus, textarea:focus {
-    /* To give a little highlight on active elements */
+
+input:focus {
     border-color: darkgray;
 }
 
-label {
-    /* To make sure that all labels have the same size and are properly aligned */
-    display: inline-block;
+div.label {
+    margin: auto;
+    padding: 5px;
+}
+
+div.button {
+    margin: 2px;
+    padding: 3px;
 }
